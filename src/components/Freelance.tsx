@@ -61,7 +61,7 @@ const Freelance = () => {
               <Button
                 size="lg"
                 onClick={scrollToContact}
-                className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-10 py-6 text-lg rounded-xl shadow-lg hover:shadow-primary/50 transition-all duration-300 group"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-6 md:px-10 py-4 md:py-6 text-base md:text-lg rounded-xl shadow-lg hover:shadow-primary/50 transition-all duration-300 group w-full md:w-auto"
               >
                 Let's Discuss Your Project
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
