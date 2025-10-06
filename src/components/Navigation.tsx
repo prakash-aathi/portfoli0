@@ -41,7 +41,7 @@ const Navigation = () => {
           onClick={() => scrollToSection("hero")}
           className="text-xl font-bold text-gradient hover:opacity-80 transition-opacity"
         >
-          Prakash Aathi
+          Prakash A
         </button>
 
         {/* Desktop Navigation */}

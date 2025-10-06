@@ -24,7 +24,7 @@ const About = () => {
           </h2>
 
           <p className="text-xl text-center text-foreground/60 mb-8">
-            Full-Stack & Workflow Engineer | Java • Spring Boot • React • Dapr • AI Integration
+            Full-Stack & Workflow-AI Engineer | Java, Spring Boot, React, Node.js, AWS & AI Enthusiast
           </p>
 
           <div className="bg-card border border-border rounded-2xl p-8 shadow-lg">
@@ -55,7 +55,7 @@ const About = () => {
             </div>
 
             <p className="text-lg text-foreground/70 mt-8 italic">
-              Fun fact: I love experimenting with workflow engines and system automation patterns.
+              Fun fact: I love experimenting with new AI tools and integrating them into my projects to enhance user experiences!
             </p>
           </div>
         </motion.div>

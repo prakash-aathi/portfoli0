@@ -4,10 +4,11 @@ import { Button } from "./ui/button";
 
 const Freelance = () => {
   const specialties = [
+    "Full-stack web applications with React, Node.js, Spring Boot",
     "Workflow automation for business operations",
     "Real-time communication & notifications",
     "Scalable backend APIs for web/mobile apps",
-    "AI-based integrations using Spring AI or Node.js",
+    "AI-based integrations using Spring AI, Langchain, n8n",
   ];
 
   const scrollToContact = () => {
@@ -36,7 +37,7 @@ const Freelance = () => {
             </h2>
 
             <p className="text-lg text-foreground/80 mb-8 text-center leading-relaxed">
-              Whether you need a custom workflow automation, a full-stack web app, or backend API design — 
+              Whether you need a Full-stack web app, a custom workflow automation, or backend API design,
               I can help bring your idea to life with modern technologies and clean architecture.
             </p>
 

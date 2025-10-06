@@ -49,7 +49,8 @@ const Projects = () => {
                 ))}
               </div>
 
-              <Button
+              { project.type === "public" &&
+                <Button
                 variant="outline"
                 className="border-primary/50 text-primary hover:bg-primary/10 group/btn"
                 asChild
@@ -59,7 +60,19 @@ const Projects = () => {
                   View Project
                   <ExternalLink className="ml-2 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" size={16} />
                 </a>
-              </Button>
+                </Button>}
+              {project.type === "private" &&
+                <Button
+                  variant="outline"
+                  className="border-foreground/30 text-foreground/80 cursor-not-allowed"
+                  disabled
+                >
+                  {/* confidential private project */}
+                  <Github className="mr-2" size={18} />
+                  Private Project (Confidential)
+                  <ExternalLink className="ml-2 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" size={16} />
+                </Button>
+              }
             </motion.div>
           ))}
         </div>

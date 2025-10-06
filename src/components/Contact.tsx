@@ -28,12 +28,12 @@ const Contact = () => {
       // 2. Create a service and template
       // 3. Replace with your IDs below
       
-      // await emailjs.send(
-      //   "YOUR_SERVICE_ID",
-      //   "YOUR_TEMPLATE_ID",
-      //   formData,
-      //   "YOUR_PUBLIC_KEY"
-      // );
+      await emailjs.send(
+        "Ajith_gmail_id",
+        "template_icquatc",
+        formData,
+        "lahJtt1WXCazhjwRh"
+      );
 
       toast({
         title: "Message sent!",
@@ -149,7 +149,7 @@ const Contact = () => {
                 className="text-primary hover:text-primary/80 font-medium inline-flex items-center gap-2 transition-colors"
               >
                 <Mail size={20} />
-                prakash.aathi@example.com
+                prakasha.ece19@gmail.com
               </a>
             </div>
           </div>

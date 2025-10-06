@@ -25,13 +25,13 @@ const Skills = () => {
       icon: <Wrench size={32} />,
       title: "Advanced Tools",
       skills: [
-        "Dapr",
-        "Camunda",
-        "KEDA",
-        "Datadog",
-        "Drizzle ORM",
+        "n8n",
+        "Langchain",  
         "Spring AI (OpenAI integration)",
+        "supabase",
         "Keycloak (Identity & Access Management)",
+        "Redis",
+        "RabbitMQ",
       ],
     },
     {

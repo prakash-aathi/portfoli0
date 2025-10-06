@@ -33,12 +33,12 @@ const Hero = () => {
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             Hi, I'm{" "}
-            <span className="text-gradient glow-text">Prakash Aathi</span>
+            <span className="text-gradient glow-text">Prakash A</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-foreground/80 mb-4 leading-relaxed">
-            I build end-to-end intelligent systems using{" "}
-            <span className="text-primary font-semibold">Java, Spring Boot, React, and AI</span>
+            I build end-to-end Web Applications using{" "}
+            <span className="text-primary font-semibold">React.js, Node.js, Spring Boot, Langchain, AWS and AI technologies.</span> 
           </p>
 
           <p className="text-lg md:text-xl text-foreground/60 mb-12 max-w-3xl mx-auto">

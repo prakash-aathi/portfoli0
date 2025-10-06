@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col items-center gap-6">
           <div className="flex gap-6">
             <a
-              href="https://github.com/prakashaathi"
+              href="https://github.com/prakash-aathi"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/60 hover:text-primary transition-colors duration-200"
@@ -16,7 +16,7 @@ const Footer = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com/in/prakashaathi"
+              href="https://www.linkedin.com/in/prakash971"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/60 hover:text-primary transition-colors duration-200"
@@ -25,7 +25,7 @@ const Footer = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="mailto:prakash.aathi@example.com"
+              href="mailto:prakasha.ece19@gmail.com"
               className="text-foreground/60 hover:text-primary transition-colors duration-200"
               aria-label="Email"
             >
